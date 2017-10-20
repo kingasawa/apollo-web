@@ -13,6 +13,7 @@ const routes = require('next-routes')();
 //
 // ------------ ROUTES ---------------
 // @RANStartRoutes
+// dinh nghia 1 route co postId va postTitle la param
 routes.add('details', '/details/:postId/:postTitle');
 routes.add('create', '/create_post');
 routes.add('signin', '/sign_in');

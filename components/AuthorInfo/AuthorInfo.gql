@@ -1,0 +1,7 @@
+query AuthorInfo($id: Int, $firstName: String, $lastName: String){
+  author(id: $id, firstName: $firstName, lastName: $lastName){
+    id
+    lastName
+    firstName
+  }
+}
